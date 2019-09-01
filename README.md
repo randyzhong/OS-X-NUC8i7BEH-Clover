@@ -52,7 +52,7 @@ These settings are important but are already set as needed by "Load Defaults"
 
 The following settings are important for **Mod** users
 - Devices->Onboard Devices, disable **WLAN** and **Bluetooth**
-- Devices->Onboard Devices, enable **SD Card** as we desoldered/replaced with a BCM94360CS2(or BCM942602CS).
+- Devices->Onboard Devices, enable **SD Card** to Read/Write as we desoldered/replaced with a BCM94360CS2(or BCM942602CS).
 
 Press **F10** to save changes.
 
@@ -78,21 +78,22 @@ Always check your hibernatemode after updates and disable it. System updates ten
 - To be updated
 
 ### Tested OS
-- macOS Mojave 10.14.5
+- macOS Mojave 10.14.6
 
 ### Clover
-- Clover r5303
+- Clover r5406
 
 ### Kexts
-- CPUFriend.kext (1.1.8)
-- VirtualSMC.kext (1.0.6)
-  - SMCProcessor.kext (6.26-357-gceb835ea.1800)
-  - SMCSuperIO.kext (6.26-357-gceb835ea.1800)
-- IntelMausiEthernet.kext (2.4.0d0)
+- CPUFriend.kext (1.1.9)
+- VirtualSMC.kext (1.0.7)
+  - SMCProcessor.kext (1.0.7)
+  - SMCSuperIO.kext (1.0.7)
+- IntelMausiEthernet.kext (2.5.0d0)
 - USBPorts.kext (1.0)
 - SATA-unsupported (0.9.2)
-- Lilu.kext (1.3.7)
-- WhateverGreen.kext (1.3.0)
+- Lilu.kext (1.3.8)
+- AppleALC (1.4.0)
+- WhateverGreen.kext (1.3.1)
 
 ## Works
 - UEFI booting via Clover
