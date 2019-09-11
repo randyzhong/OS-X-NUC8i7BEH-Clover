@@ -108,3 +108,6 @@ Always check your hibernatemode after updates and disable it. System updates ten
 - Mac App Store working
 - Sleep (hibernation disabled, not tested)
 - **Dual Displays** (1 HDMI, 1 USB-C to DP)
+
+## Other
+- Remove USB Port:HS10 (Built-in Bluetooth)
