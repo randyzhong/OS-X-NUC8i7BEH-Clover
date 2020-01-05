@@ -79,21 +79,22 @@ Always check your hibernatemode after updates and disable it. System updates ten
 
 ### Tested OS
 - macOS Mojave 10.14.6
+- macOS Catalina 10.15.2
 
 ### Clover
-- Clover r5406
+- Clover r5102
 
 ### Kexts
 - CPUFriend.kext (1.1.9)
-- VirtualSMC.kext (1.0.7)
-  - SMCProcessor.kext (1.0.7)
-  - SMCSuperIO.kext (1.0.7)
-- IntelMausiEthernet.kext (2.5.0d0)
+- VirtualSMC.kext (1.0.9)
+  - SMCProcessor.kext (1.0.9)
+  - SMCSuperIO.kext (1.0.9)
+- IntelMausi.kext (1.0.2)
 - USBPorts.kext (1.0)
 - SATA-unsupported (0.9.2)
-- Lilu.kext (1.3.8)
-- AppleALC (1.4.0)
-- WhateverGreen.kext (1.3.1)
+- Lilu.kext (1.4.0)
+- AppleALC (1.4.4)
+- WhateverGreen.kext (1.3.5)
 
 ## Works
 - UEFI booting via Clover
