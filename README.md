@@ -1,7 +1,7 @@
 ## OS-X-NUC8i7BEH-Clover
 This repository contains the files and scripts to install macOS on a **modded** Intel NUC8i7BEH (Bean Canyon).
 
-![Catalina-10.15.2.png](https://i.loli.net/2020/01/05/3OUNAlS4ZsPLCg5.png)
+![Catalina-10.15.2.jpg](https://i.loli.net/2020/01/05/cpzUulMALTbi21F.jpg)
 
 ## Hardware
 ### Specs:
