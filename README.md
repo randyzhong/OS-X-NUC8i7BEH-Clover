@@ -3,6 +3,12 @@ This repository contains the files and scripts to install macOS on a **modded** 
 
 ![Catalina-10.15.4.jpg](https://i.loli.net/2020/03/26/FaPgHDUlXfIuycV.jpg)
 
+
+## Catalina Update Tip
+Once you install Catalina Update, the system will reboot twice, make sure select **Boot macOS Install from your_volume_name  - Data** volume manually every time, once the update is finished, the **Boot macOS Install from your_volume_name  - Data** volume will be no longer showing at Clover boot screen.
+![Clover-select-data-install.jpg](https://i.loli.net/2020/04/06/AgyeMSiuWvbUta9.jpg)
+
+
 ## Hardware
 ### Specs:
 - CPU: Intel i7-8559U, 4c/8t, base 2.7Ghz, turbo 4.5Ghz, 28w TDP.
