@@ -41,7 +41,7 @@ Two possible Mods:
 - https://www.mydigit.cn/forum.php?mod=viewthread&tid=34830&extra=&page=1 (Chinese) - also looks great!
 
 ## Configure BIOS Settings
-On my NUC8i7BEH, BIOS version updated to **0071**.
+On my NUC8i7BEH, BIOS version updated from  **0071** to **0073**
 
 The boot menu and BIOS setup can be accessed by mashing the F2 key during BIOS startup. After the main screen comes up choose "Advanced". That gets you to the main BIOS setup screens.
 
@@ -90,19 +90,20 @@ Always check your hibernatemode after updates and disable it. System updates ten
 - macOS Catalina 10.15.2 - 10.15.4
 
 ### Clover
-- Clover r5107
+- Clover r5108
 
 ### Kexts
 - CPUFriend.kext (1.2.0)
-- VirtualSMC.kext (1.1.1)
-  - SMCProcessor.kext (1.1.1)
-  - SMCSuperIO.kext (1.1.1)
+- VirtualSMC.kext (1.1.2)
+  - SMCProcessor.kext (1.1.2)
+  - SMCSuperIO.kext (1.1.2)
 - IntelMausi.kext (1.0.2)
 - USBPorts.kext (1.0)
 - SATA-unsupported (0.9.2)
-- Lilu.kext (1.4.2)
-- AppleALC (1.4.7)
-- WhateverGreen.kext (1.3.7)
+- XHCI-unsupported.kext (0.9.2)
+- Lilu.kext (1.4.3)
+- AppleALC (1.4.8)
+- WhateverGreen.kext (1.3.8)
 
 ## Works
 - UEFI booting via Clover
