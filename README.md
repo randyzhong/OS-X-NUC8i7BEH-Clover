@@ -33,12 +33,12 @@ Once you install Catalina Update, the system will reboot twice, make sure select
 NUC8i7BEH uses RTS5227S (use pcie x1) chipset for SD card which can be desoldered/replaced with a BCM94360CS2(or BCM942602CS) to get native AirDrop/Handoff support.
 
 Two possible Mods:
-- https://www.chiphell.com/thread-2004976-1-1.html (Chinese) - My NUC8 Mod
+- https://www.mydigit.cn/forum.php?mod=viewthread&tid=34830&extra=&page=1 (Chinese) - My NUC8 Mod
 ![1](https://www.tonymacx86.com/attachments/193557c1jhu2heyxjjl8w8-jpg.422678/)
 ![2](https://www.tonymacx86.com/attachments/200739bhrnx7stnmnxej9z-jpg.422679/)
 ![3](https://www.tonymacx86.com/attachments/204632xl75bq1uwbil2i8g-jpg.422686/)
 
-- https://www.mydigit.cn/forum.php?mod=viewthread&tid=34830&extra=&page=1 (Chinese) - also looks great!
+- https://www.chiphell.com/thread-2004976-1-1.html (Chinese) - also looks great!
 
 ## Configure BIOS Settings
 On my NUC8i7BEH, BIOS version updated from  **0071** to **0073**
