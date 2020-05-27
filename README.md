@@ -1,7 +1,7 @@
 ## OS-X-NUC8i7BEH-Clover
 This repository contains the files and scripts to install macOS on a **modded** Intel NUC8i7BEH (Bean Canyon).
 
-![Catalina-10.15.4.jpg](https://i.loli.net/2020/03/26/FaPgHDUlXfIuycV.jpg)
+![Catalina-10.15.5.jpg](https://i.loli.net/2020/05/27/lrowY36fQOsVD5A.jpg)
 
 
 ## Catalina Update Tip
@@ -87,7 +87,7 @@ Always check your hibernatemode after updates and disable it. System updates ten
 
 ### Tested OS
 - macOS Mojave 10.14.6
-- macOS Catalina 10.15.2 - 10.15.4
+- macOS Catalina 10.15.2 - 10.15.5
 
 ### Clover
 - Clover r5117
