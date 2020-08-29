@@ -42,7 +42,7 @@ Two possible Mods:
 - https://www.chiphell.com/thread-2004976-1-1.html (Chinese) - also looks great!
 
 ## Configure BIOS Settings
-On my NUC8i7BEH, BIOS version updated from  **0071** to **0073**
+On my NUC8i7BEH, BIOS version updated from  **0073** to **0078**
 
 The boot menu and BIOS setup can be accessed by mashing the F2 key during BIOS startup. After the main screen comes up choose "Advanced". That gets you to the main BIOS setup screens.
 
