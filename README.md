@@ -25,7 +25,7 @@ Once you install Catalina Update, the system will reboot twice, make sure select
 - 1 * Jack 3.5mm Realtek HD Audio
 
 ### My specification
-- Updated BIOS to 0078 (Aug 29, 2020)
+- Updated BIOS to **0078** (Aug 29, 2020)
 - 2 * Hynix HMA81GS6AFR8N-UH 8GB DDR4-2400 SODIMM
 - WD Black SN750 NVMe 512G
 - **BCM94360CS2** Wi-Fi/Bluetooth with adapter (will explain how)
