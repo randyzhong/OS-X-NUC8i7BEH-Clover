@@ -1,7 +1,7 @@
 ## OS-X-NUC8i7BEH-Clover
 This repository contains the files and scripts to install macOS on a **modded** Intel NUC8i7BEH (Bean Canyon).
 
-![Catalina-10.15.6.jpg](https://i.loli.net/2020/08/15/52oPVJQFAYgkUdj.jpg)
+![Catalina-10.15.7.jpg](https://i.loli.net/2020/10/13/ErBTLlj9HQFitJz.jpg)
 
 
 ## Catalina Update Tip
@@ -88,23 +88,23 @@ Always check your hibernatemode after updates and disable it. System updates ten
 
 ### Tested OS
 - macOS Mojave 10.14.6
-- macOS Catalina 10.15.2 - 10.15.6
+- macOS Catalina 10.15.2 - 10.15.7
 
 ### Clover
 - Clover r5120
 
 ### Kexts
-- CPUFriend.kext (1.2.1)
-- VirtualSMC.kext (1.1.5)
-  - SMCProcessor.kext (1.1.5)
-  - SMCSuperIO.kext (1.1.5)
-- IntelMausi.kext (1.0.3)
+- CPUFriend.kext (1.2.2)
+- VirtualSMC.kext (1.1.7)
+  - SMCProcessor.kext (1.1.7)
+  - SMCSuperIO.kext (1.1.7)
+- IntelMausi.kext (1.0.4)
 - USBPorts.kext (1.0)
 - SATA-unsupported (0.9.2)
 - XHCI-unsupported.kext (0.9.2)
-- Lilu.kext (1.4.6)
-- AppleALC (1.5.1)
-- WhateverGreen.kext (1.4.1)
+- Lilu.kext (1.4.8)
+- AppleALC (1.5.3)
+- WhateverGreen.kext (1.4.3)
 
 ## Works
 - UEFI booting via Clover
