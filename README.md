@@ -91,7 +91,7 @@ Always check your hibernatemode after updates and disable it. System updates ten
 - macOS Catalina 10.15.2 - 10.15.7
 
 ### Clover
-- Clover r5120
+- Clover r5124
 
 ### Kexts
 - CPUFriend.kext (1.2.2)
