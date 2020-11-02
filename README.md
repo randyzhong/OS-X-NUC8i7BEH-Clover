@@ -105,6 +105,7 @@ Always check your hibernatemode after updates and disable it. System updates ten
 - Lilu.kext (1.4.8)
 - AppleALC (1.5.3)
 - WhateverGreen.kext (1.4.3)
+- IOElectrify.kext(1.0.0)
 
 ## Works
 - UEFI booting via Clover
