@@ -25,7 +25,7 @@ Once you install Catalina Update, the system will reboot twice, make sure select
 - 1 * Jack 3.5mm Realtek HD Audio
 
 ### My specification
-- Updated BIOS to **0078** (Aug 29, 2020)
+- Updated BIOS to **0081** Nov 11, 2020)
 - 2 * Hynix HMA81GS6AFR8N-UH 8GB DDR4-2400 SODIMM
 - WD Black SN750 NVMe 512G
 - **BCM94360CS2** Wi-Fi/Bluetooth with adapter (will explain how)
@@ -42,7 +42,7 @@ Two possible Mods:
 - https://www.chiphell.com/thread-2004976-1-1.html (Chinese) - also looks great!
 
 ## Configure BIOS Settings
-On my NUC8i7BEH, BIOS version updated from  **0073** to **0078**
+On my NUC8i7BEH, BIOS version updated from  **0078** to **0081**
 
 The boot menu and BIOS setup can be accessed by mashing the F2 key during BIOS startup. After the main screen comes up choose "Advanced". That gets you to the main BIOS setup screens.
 
@@ -91,21 +91,21 @@ Always check your hibernatemode after updates and disable it. System updates ten
 - macOS Catalina 10.15.2 - 10.15.7
 
 ### Clover
-- Clover r5124
+- Clover r5126
 
 ### Kexts
 - CPUFriend.kext (1.2.2)
-- VirtualSMC.kext (1.1.7)
-  - SMCProcessor.kext (1.1.7)
-  - SMCSuperIO.kext (1.1.7)
+- VirtualSMC.kext (1.1.8)
+  - SMCProcessor.kext (1.1.8)
+  - SMCSuperIO.kext (1.1.8)
 - IntelMausi.kext (1.0.4)
 - USBPorts.kext (1.0)
 - SATA-unsupported (0.9.2)
 - XHCI-unsupported.kext (0.9.2)
-- Lilu.kext (1.4.8)
-- AppleALC (1.5.3)
-- WhateverGreen.kext (1.4.3)
-- IOElectrify.kext(1.0.0)
+- Lilu.kext (1.4.9)
+- AppleALC (1.5.4)
+- WhateverGreen.kext (1.4.4)
+- IOElectrify.kext (1.0.0)
 
 ## Works
 - UEFI booting via Clover
@@ -113,6 +113,7 @@ Always check your hibernatemode after updates and disable it. System updates ten
 - DP/HDMI video/audio
 - AirPlay mirroring to AppleTV
 - Native USB3/USB2
+- Thunderbolt 3
 - Native audio with AppleHDA
 - Native power management
 - GPU Hardware Acceleration
