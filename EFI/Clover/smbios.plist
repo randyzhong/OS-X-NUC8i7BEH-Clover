@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SMBIOS</key>
+	<dict>
+		<key>BiosReleaseDate</key>
+		<string>03/10/2021</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>MM81.88Z.F000.B00.2103102019</string>
+		<key>Board-ID</key>
+		<string>Mac-7BA5B2DFE22DDD8C</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C11223344XXXX</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>Macmini8,1</string>
+		<key>ChassisAssetTag</key>
+		<string>Mini-Aluminum</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x10</string>
+		<key>EfiVersion</key>
+		<string>1554.100.64.0.0</string>
+		<key>Family</key>
+		<string>Mac mini</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFD8FF466</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFFDFFF7F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Mobile</key>
+		<false/>
+		<key>PlatformFeature</key>
+		<string>0x20</string>
+		<key>ProductName</key>
+		<string>Macmini8,1</string>
+		<key>SerialNumber</key>
+		<string>C07XXXXXXXXX</string>
+		<key>SmUUID</key>
+		<string>2C59D664-XXXX-1111-2222-XXX7768849F2</string>
+		<key>Version</key>
+		<string>1.0</string>
+	</dict>
+</dict>
+</plist>
