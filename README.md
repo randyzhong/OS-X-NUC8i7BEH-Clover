@@ -4,6 +4,8 @@ This repository contains the files and scripts to install macOS on a **modded** 
 ![Catalina-10.15.7.jpg](https://i.loli.net/2020/10/13/ErBTLlj9HQFitJz.jpg)
 
 
+## Support Big Sur now!
+
 ## Catalina Update Tip
 Once you install Catalina Update, the system will reboot twice, make sure select **Boot macOS Install from your_volume_name  - Data** volume manually every time, once the update is finished, the **Boot macOS Install from your_volume_name  - Data** volume will be no longer showing at Clover boot screen.
 ![Clover-select-data-install.jpg](https://i.loli.net/2020/04/06/AgyeMSiuWvbUta9.jpg)
@@ -89,23 +91,23 @@ Always check your hibernatemode after updates and disable it. System updates ten
 ### Tested OS
 - macOS Mojave 10.14.6
 - macOS Catalina 10.15.2 - 10.15.7
+- macOS Big Sur 11.3.1
 
 ### Clover
-- Clover r5126
+- Clover r5135
 
 ### Kexts
-- CPUFriend.kext (1.2.2)
-- VirtualSMC.kext (1.1.8)
-  - SMCProcessor.kext (1.1.8)
-  - SMCSuperIO.kext (1.1.8)
-- IntelMausi.kext (1.0.4)
+- CPUFriend.kext (1.2.3)
+- VirtualSMC.kext (1.2.3)
+  - SMCProcessor.kext (1.2.3)
+  - SMCSuperIO.kext (1.2.3)
+- FakePCIID_Intel_HDMI_Audio.kext (1.3.15)
+- FakePCIID.kext (1.3.15)
+- IntelMausi.kext (1.0.6)
 - USBPorts.kext (1.0)
-- SATA-unsupported (0.9.2)
-- XHCI-unsupported.kext (0.9.2)
-- Lilu.kext (1.4.9)
-- AppleALC (1.5.4)
-- WhateverGreen.kext (1.4.4)
-- IOElectrify.kext (1.0.0)
+- Lilu.kext (1.5.3)
+- AppleALC (1.5.8)
+- WhateverGreen.kext (1.4.9)
 
 ## Works
 - UEFI booting via Clover
