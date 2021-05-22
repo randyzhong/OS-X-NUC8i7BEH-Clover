@@ -1,10 +1,10 @@
 ## OS-X-NUC8i7BEH-Clover
 This repository contains the files and scripts to install macOS on a **modded** Intel NUC8i7BEH (Bean Canyon).
 
-![Catalina-10.15.7.jpg](https://i.loli.net/2020/10/13/ErBTLlj9HQFitJz.jpg)
-
-
 ## Support Big Sur now!
+
+![BigSur-11.3.1.jpg](https://i.loli.net/2021/05/22/rStpBkDjdiL2K4E.jpg)
+
 
 ## Catalina Update Tip
 Once you install Catalina Update, the system will reboot twice, make sure select **Boot macOS Install from your_volume_name  - Data** volume manually every time, once the update is finished, the **Boot macOS Install from your_volume_name  - Data** volume will be no longer showing at Clover boot screen.
