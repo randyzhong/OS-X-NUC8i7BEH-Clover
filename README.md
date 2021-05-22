@@ -8,6 +8,7 @@ This repository contains the files and scripts to install macOS on a **modded** 
 
 ## Catalina Update Tip
 Once you install Catalina Update, the system will reboot twice, make sure select **Boot macOS Install from your_volume_name  - Data** volume manually every time, once the update is finished, the **Boot macOS Install from your_volume_name  - Data** volume will be no longer showing at Clover boot screen.
+
 ![Clover-select-data-install.jpg](https://i.loli.net/2020/04/06/AgyeMSiuWvbUta9.jpg)
 
 
