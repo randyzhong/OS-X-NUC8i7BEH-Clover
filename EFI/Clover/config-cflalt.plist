@@ -6,8 +6,6 @@
 	<dict>
 		<key>DSDT</key>
 		<dict>
-			<key>DropOEM_DSM</key>
-			<false/>
 			<key>Patches</key>
 			<array>
 				<dict>
@@ -82,7 +80,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change _DSM to XDSM</string>
+					<string>change _DSM to ZDSM</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -104,10 +102,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>DisabledAML</key>
-		<array>
-			<string>SSDT-DDA.aml</string>
-		</array>
 		<key>SSDT</key>
 		<dict>
 			<key>Generate</key>
@@ -120,9 +114,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dark=0 -igfxnohdmi -cdfon lilucpu=10</string>
+		<string>dart=0 -igfxnohdmi -cdfon lilucpu=10</string>
 		<key>DefaultVolume</key>
-		<string>macOS</string>
+		<string>LastBootedVolume</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
@@ -132,17 +126,12 @@
 		<key>Timeout</key>
 		<integer>3</integer>
 		<key>XMPDetection</key>
-		<string>Yes</string>
+		<integer>0</integer>
 	</dict>
 	<key>BootGraphics</key>
 	<dict>
 		<key>UIScale</key>
-		<integer>0</integer>
-	</dict>
-	<key>CPU</key>
-	<dict>
-		<key>#FrequencyMHz</key>
-		<integer>1800</integer>
+		<integer>2</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -152,6 +141,8 @@
 			<dict>
 				<key>#AAPL,ig-platform-id</key>
 				<data>AAAAAA==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
 				<key>framebuffer-con0-3e9b0007-alldata</key>
 				<data>AQUJAAAIAADHAwAA</data>
 				<key>framebuffer-con0-59120000-alldata</key>
@@ -166,11 +157,17 @@
 				<integer>1</integer>
 				<key>framebuffer-patch-enable</key>
 				<integer>1</integer>
+				<key>model</key>
+				<string>Intel Iris Plus Graphics 655</string>
 			</dict>
 			<key>PciRoot(0)/Pci(0x1f,3)</key>
 			<dict>
 				<key>#device-id</key>
 				<data>dJ0AAA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>layout-id</key>
+				<integer>28</integer>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -189,21 +186,10 @@
 	</array>
 	<key>GUI</key>
 	<dict>
-		<key>#ScreenResolution</key>
-		<string>1920x1080</string>
-		<key>Hide</key>
-		<array>
-			<string>Preboot</string>
-			<string>\EFI\Boot\BOOTX64.EFI</string>
-		</array>
-		<key>Language</key>
-		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
-			<true/>
-			<key>Speed</key>
-			<integer>6</integer>
+			<false/>
 		</dict>
 		<key>Scan</key>
 		<dict>
@@ -217,7 +203,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>Mojave</string>
+		<string>Catalina4K</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -231,12 +217,6 @@
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>#FakeCPUID</key>
-		<string>0x0506e3</string>
-		<key>#Kaby Lake-Comment</key>
-		<string>Kaby Lake CPU supportable by using CPUID from Skylake</string>
-		<key>AppleIntelCPUPM</key>
-		<false/>
 		<key>AppleRTC</key>
 		<true/>
 		<key>KernelPm</key>
@@ -284,7 +264,7 @@
 				<key>Comment</key>
 				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>AEFQUExFIFNTRAA=</data>
 				<key>InfoPlistPatch</key>
@@ -296,53 +276,51 @@
 			</dict>
 		</array>
 	</dict>
+	<key>Quirks</key>
+	<dict>
+		<key>AvoidRuntimeDefrag</key>
+		<true/>
+		<key>DevirtualiseMmio</key>
+		<true/>
+		<key>DisableIoMapper</key>
+		<true/>
+		<key>DisableLinkeditJettison</key>
+		<true/>
+		<key>EnableSafeModeSlide</key>
+		<true/>
+		<key>EnableWriteUnprotector</key>
+		<false/>
+		<key>PowerTimeoutKernelPanic</key>
+		<true/>
+		<key>ProtectUefiServices</key>
+		<true/>
+		<key>ProvideCustomSlide</key>
+		<true/>
+		<key>ProvideMaxSlide</key>
+		<integer>0</integer>
+		<key>RebuildAppleMemoryMap</key>
+		<true/>
+		<key>SetupVirtualMap</key>
+		<true/>
+		<key>SyncRuntimePermissions</key>
+		<true/>
+		<key>ThirdPartyDrives</key>
+		<true/>
+	</dict>
 	<key>RtVariables</key>
 	<dict>
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>C07808100QXKXPGUE</string>
 		<key>ROM</key>
-		<string>UseMacAddr0</string>
-	</dict>
-	<key>SMBIOS</key>
-	<dict>
-		<key>BiosReleaseDate</key>
-		<string>04/23/2019</string>
-		<key>BiosVendor</key>
-		<string>Apple Inc.</string>
-		<key>BiosVersion</key>
-		<string>MM81.88Z.F000.B00.1904232231</string>
-		<key>BoardManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>BoardType</key>
-		<integer>10</integer>
-		<key>BoardVersion</key>
-		<string>1.0</string>
-		<key>ChassisAssetTag</key>
-		<string>Mini-Aluminum</string>
-		<key>ChassisManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>ChassisType</key>
-		<string>0x09</string>
-		<key>Family</key>
-		<string>Mac mini</string>
-		<key>LocationInChassis</key>
-		<string>Part Component</string>
-		<key>Manufacturer</key>
-		<string>Apple Inc.</string>
-		<key>Mobile</key>
-		<false/>
-		<key>ProductName</key>
-		<string>Macmini8,1</string>
-		<key>Version</key>
-		<string>1.0</string>
+		<data>vo65r+AY</data>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Detect</string>
-		<key>InjectSystemID</key>
 		<true/>
 	</dict>
 </dict>
