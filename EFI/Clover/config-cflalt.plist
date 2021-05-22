@@ -117,8 +117,6 @@
 		<string>dart=0 -igfxnohdmi -cdfon lilucpu=10</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
-		<key>Legacy</key>
-		<string>PBR</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -126,7 +124,7 @@
 		<key>Timeout</key>
 		<integer>3</integer>
 		<key>XMPDetection</key>
-		<integer>0</integer>
+		<integer>-1</integer>
 	</dict>
 	<key>BootGraphics</key>
 	<dict>
